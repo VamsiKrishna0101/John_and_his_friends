@@ -27,7 +27,7 @@ function PrintDeveloperbyForEach() {
 function addData() {
   //Write your code here, just console.log
    let newemployee={
-     id:8, name:"susan", age:"20", profession:"intern"
+     id:4, name:"susan", age:"20", profession:"intern"
    }
    arr.push(newemployee)
    console.log(arr)
@@ -35,16 +35,16 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here, just console.log
-   let changearray=arr.filter((value)=>value.profession!='admin')
-   console.log(changearray)
+   arr=arr.filter((value)=>value.profession!='admin')
+   console.log(arr)
 }
 
 function concatenateArray() {
   //Write your code here, just console.log
   let arr1=[
-    {id:111,name:"hell",age:30,profession:"chef"},
-    {id:112,name:"heaven",age:31,profession:"dish washer"},
-    {id:113,name:"swarn",age:32,profession:"cleaner"}
+    {id:5,name:"hell",age:30,profession:"chef"},
+    {id:6,name:"heaven",age:31,profession:"dish washer"},
+    {id:7,name:"swarn",age:32,profession:"cleaner"}
   ]
   let newarr=arr.concat(arr1)
   console.log(newarr)
